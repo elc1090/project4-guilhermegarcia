@@ -5,7 +5,7 @@
 
 #### Descrição
 
-Preencha aqui uma descrição sucinta do projeto (tema e funcionalidades)
+Um microblogging simples, que permite postagens de diferentes usuários
 
 #### Deploy
 
@@ -21,6 +21,7 @@ Guilherme Garcia
 - Laravel
 - Vue.js
 - Inertia
+- MySQL
 
 #### Ambiente de desenvolvimento
 
@@ -29,9 +30,7 @@ Guilherme Garcia
 #### Créditos
 
 Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- URL de templates usados
-- URL de icon kits usados
-- Créditos para colegas que colaboraram
+- [URL de icon kits usados](https://fontawesome.com/)
 
 #### Bastidores
 
