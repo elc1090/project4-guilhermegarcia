@@ -30,7 +30,7 @@ Guilherme Garcia
 #### Créditos
 
 Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- [URL de icon kits usados](https://fontawesome.com/)
+- [Font Aweasome (iconkit)](https://fontawesome.com/)
 
 #### Bastidores
 
