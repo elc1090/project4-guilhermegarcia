@@ -16,9 +16,8 @@ const form = useForm({
 
     <AuthenticatedLayout>
         <div class="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8">
-            <button
-                class="mb-4 ml-1 items-center px-1 pt-1 border-b-2 border-gray-950 text-sm font-medium leading-5 text-gray-900"
-                >Escolha o álbum</button>
+<!--            <button-->
+<!--                class="mb-4 ml-1 items-center px-1 pt-1 border-b-2 border-gray-950 text-sm font-medium leading-5 text-gray-900"-->
             <form @submit.prevent="form.post(route('posts.store'), { onSuccess: () => form.reset() })">
                 <textarea
                     v-model="form.message"
