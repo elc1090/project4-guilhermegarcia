@@ -31,6 +31,7 @@ Guilherme Garcia
 
 Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
 - [Font Aweasome (iconkit)](https://fontawesome.com/)
+- Agradecimento especial ao meu amigo Chico que tentou me ajudar a fazer o deploy. <3
 
 #### Bastidores
 
