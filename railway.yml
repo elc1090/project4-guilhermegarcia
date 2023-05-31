@@ -1,0 +1,6 @@
+commands:
+  - name: build
+    command: |
+      composer install
+      npm i
+      npm run prod
