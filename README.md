@@ -1,6 +1,6 @@
 # Microblogging
 
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
+![Screenshot_2](https://github.com/elc1090/project3-guilherme/assets/86444781/507489e6-7211-41ae-ac74-58beff97f61b)
 
 
 #### Descrição
@@ -31,6 +31,7 @@ Guilherme Garcia
 
 Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
 - [Font Aweasome (iconkit)](https://fontawesome.com/)
+- Agradecimento especial ao meu amigo Chico que tentou me ajudar a fazer o deploy. <3
 
 #### Bastidores
 
