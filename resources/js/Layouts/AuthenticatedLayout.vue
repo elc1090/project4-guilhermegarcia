@@ -5,7 +5,7 @@ import NavLink from '@/Components/NavLink.vue';
 </script>
 <template>
     <div>
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-gray-900">
             <nav class="bg-white border-b border-gray-100">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between h-16">
@@ -13,9 +13,6 @@ import NavLink from '@/Components/NavLink.vue';
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
-                                </NavLink>
-                                <NavLink :href="route('posts.index')" :active="route().current('posts.index')">
-                                    Post
                                 </NavLink>
                             </div>
                         </div>

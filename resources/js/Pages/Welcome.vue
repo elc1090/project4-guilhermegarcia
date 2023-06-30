@@ -48,7 +48,7 @@ defineProps({
         </div>
 
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <h1 class="text-xl">MicroBlogging</h1>
+            <h1 class="text-xl">MusicBoxd</h1>
         </div>
     </div>
 </template>
