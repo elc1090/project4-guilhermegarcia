@@ -30,9 +30,9 @@ const submit = () => {
 </script>
 
 <template>
-    <Head title="Log in" />
+    <Head title="Entrar" />
     <div class="min-h-screen flex flex-col sm:justify-center items-center bg-gray-100">
-        <h1 class="text-xl">Log-in</h1>
+        <h1 class="text-xl">Entrar no <b>Music-Box</b></h1>
         <form class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg" @submit.prevent="submit">
             <div>
                 <InputLabel for="email" value="Email" />
@@ -51,7 +51,7 @@ const submit = () => {
             </div>
 
             <div class="mt-4">
-                <InputLabel for="password" value="Password" />
+                <InputLabel for="password" value="Senha" />
 
                 <TextInput
                     id="password"
@@ -67,7 +67,7 @@ const submit = () => {
 
             <div class="flex items-center justify-end mt-4">
                 <PrimaryButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                    Log in
+                    Entrar
                 </PrimaryButton>
             </div>
         </form>

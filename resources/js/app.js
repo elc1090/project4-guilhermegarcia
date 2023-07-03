@@ -8,10 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUserSecret, faComment, faStar} from '@fortawesome/free-solid-svg-icons'
 
 library.add(faUserSecret, faComment, faStar)
-const appName = window.document.getElementsByTagName('title')[0]?.innerText;
 
 createInertiaApp({
-    title: (title) => `${title} - ${appName}`,
+    title: (title) => `${title}`,
     resolve: (name) => require(`./Pages/${name}.vue`),
     setup({ el, App, props, plugin }) {
         return createApp({ render: () => h(App, props) })

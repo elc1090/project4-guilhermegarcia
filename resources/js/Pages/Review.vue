@@ -10,7 +10,7 @@
                             <p class="album-artist">{{ album.artist }}</p>
                             <form @submit.prevent="handleSubmit">
                                 <textarea v-model="review" rows="5" class="texarea-review" placeholder="Deixe sua avaliação"></textarea>
-                                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Enviar</button>
+                                <button type="submit" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg">Enviar</button>
                             </form>
                         </div>
                     </div>

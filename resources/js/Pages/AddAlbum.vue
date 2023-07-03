@@ -10,7 +10,7 @@
                                 <input type="text" v-model="artist" placeholder="Artista do álbum" class="album-form-input">
                                 <input type="text" v-model="release_year" placeholder="Ano de lançamento do álbum" class="album-form-input">
                                 <input type="text" v-model="cover_image" placeholder="Link da capa do álbum" class="album-form-input">
-                                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Adicionar álbum</button>
+                                <button type="submit" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg">Adicionar álbum</button>
                             </form>
                         </div>
                     </div>
