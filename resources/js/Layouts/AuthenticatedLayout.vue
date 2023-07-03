@@ -5,14 +5,17 @@ import NavLink from '@/Components/NavLink.vue';
 </script>
 <template>
     <div>
-        <div class="min-h-screen bg-gray-900">
+        <div class="min-h-screen bg-black">
             <nav class="bg-white border-b border-gray-100">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between h-16">
                         <div class="flex">
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
-                                    Dashboard
+                                    Álbuns
+                                </NavLink>
+                                <NavLink :href="route('reviews.listAll')" :active="route().current('reviews.listAll')">
+                                    Avaliações
                                 </NavLink>
                             </div>
                         </div>
@@ -28,8 +31,11 @@ import NavLink from '@/Components/NavLink.vue';
                                         </span>
                                     </template>
                                     <template #content>
+                                        <DropdownLink :href="route('albums.create')" method="get" as="button">
+                                            Adicionar Álbum
+                                        </DropdownLink>
                                         <DropdownLink :href="route('logout')" method="post" as="button">
-                                            Log Out
+                                            Sair
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>
