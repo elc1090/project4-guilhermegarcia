@@ -27,9 +27,8 @@ Guilherme Garcia
 - MySQL
   
 #### Bastidores
-Apesar de ser uma aplicação relativamente simples, tentei me desafiar nas tecnologias, utilizando single-page com o Inertia, Laravel Eloquent e até mesmo o próprio Vue.
-Na parte do banco de dados, tentei fazer a criação das tabelas e a inserção dos dados utilizando migrations e seeders do próprio Laravel.
-Gostei bastante do resultado e pretendo aprimora-lo futuramente (também em cadeiras onde eu possa desenvolver e aprimorar projetos), e acho uma boa adição para um portfólio pessoal.
+
+Embora seja uma aplicação relativamente simples, decidi me desafiar ao explorar diferentes tecnologias, como o uso de single-page com o Inertia, Laravel Eloquent e até mesmo o Vue em si. A respeito do banco de dados, optei por criar tabelas e inserir dados utilizando as migrações e seeders nativos do Laravel. O processo de implantação no Railway foi simples, porém desafiador ao mesmo tempo. Foi uma das primeiras vezes em que lidei com a implantação de aplicações e, apesar de me deparar com erros confusos que inicialmente não sabia interpretar, acredito que consegui compreender melhor essa parte, que, embora complexa no início, é fundamental no desenvolvimento de aplicações. Fiquei muito satisfeito com o resultado e tenho planos de aprimorá-lo no futuro. Considero que seja uma boa adição ao meu portfólio pessoal.
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
