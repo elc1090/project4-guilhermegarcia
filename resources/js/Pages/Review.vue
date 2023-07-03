@@ -1,4 +1,5 @@
 <template>
+    <Head title="Avaliações" />
     <AuthenticatedLayout>
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -23,10 +24,12 @@
 <script>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import axios from 'axios';
+import { Head } from '@inertiajs/vue3';
 
 export default {
     components: {
         AuthenticatedLayout,
+        Head,
     },
     props: {
         album: Object,

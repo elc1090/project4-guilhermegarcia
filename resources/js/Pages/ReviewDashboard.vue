@@ -1,4 +1,5 @@
 <template>
+    <Head title="Avaliações" />
     <AuthenticatedLayout>
         <template>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Dashboard</h2>
@@ -46,6 +47,7 @@
 import StarRating from "vue-star-rating";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 import AlbumsIndex from "@/Pages/Albums/Index.vue";
+import { Head } from "@inertiajs/vue3";
 import axios from "axios";
 import moment from 'moment';
 import 'moment/locale/pt-br';
@@ -54,6 +56,7 @@ export default {
         AuthenticatedLayout,
         StarRating,
         AlbumsIndex,
+        Head,
     },
     mounted() {
         this.loadReviews();

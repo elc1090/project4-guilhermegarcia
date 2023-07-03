@@ -1,4 +1,5 @@
 <template>
+    <Head title="Dashboard" />
     <AuthenticatedLayout>
         <template>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Dashboard</h2>
@@ -21,11 +22,14 @@
 <script>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import AlbumsIndex from '@/Pages/Albums/Index';
+import { Head } from '@inertiajs/vue3';
+
 
 export default {
     components: {
         AuthenticatedLayout,
         AlbumsIndex,
+        Head,
     },
     props: {
         albums: Array,

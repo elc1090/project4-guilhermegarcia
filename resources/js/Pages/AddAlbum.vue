@@ -1,4 +1,5 @@
 <template>
+    <Head title="Adicionar Album" />
     <AuthenticatedLayout>
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -21,11 +22,13 @@
 </template>
 <script>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+import { Head } from '@inertiajs/vue3';
 
 import axios from 'axios';
 export default {
     components: {
         AuthenticatedLayout,
+        Head,
     },
     data() {
         return {
